@@ -1,0 +1,31 @@
+{
+  "name": "realcheck-web",
+  "version": "0.1.0",
+  "private": true,
+  "description": "RealCheck — frontend scaffold (Vite + React + Tailwind)",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173",
+    "lint": "eslint . --ext .js,.jsx --max-warnings=0",
+    "test": "vitest run",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "lucide-react": "^0.277.0",
+    "clsx": "^1.2.1"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "tailwindcss": "^4.0.0",
+    "postcss": "^8.4.0",
+    "autoprefixer": "^10.4.0",
+    "eslint": "^8.0.0",
+    "prettier": "^2.8.0",
+    "vitest": "^1.2.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0"
+  }
+}
